@@ -1,0 +1,17 @@
+#cd ~
+#vim .vimrc
+
+
+syntax on
+
+set nu  # 행번호 표시
+set tabstop=4 # 탭 칸 설정
+set autoindent # 자동 들여쓰기
+set ruler # 화면 우측 하단에 현재 커서의 위치 표시
+set showcmd # 
+set title # 
+set wmnu #
+set showmatch
+set nocompatible
+
+#sudo source .vimrc

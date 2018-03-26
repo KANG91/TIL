@@ -1,0 +1,19 @@
+pconfig로 자신의 ipv4주소(내부아이피 주소)와 게이트웨이주소 확인
+크롬 열어서 게이트웨이주소 치면 공유기 관리자 모드들어갈 수 있음
+	아이디는 admin 비밀번호는 다음 종류 중 하나
+			1. 공유기에 있는 번호 맨 뒤에 6개(숫자 + 영어) + "_admin"
+			2. (빈 칸)
+			3. admin(아이디와 똑같이)
+			4. skb_wifi
+			5. skb_admin
+포트포워딩 메뉴에서 내부아이피 주소, 외부 포트번호는 아무거나, 내부 포트번호는 8888 입력
+anconda prompot - jupyter notebook --generate-config -> 전체 jupyter에 영향을 미침
+	jupyter noteobok 키고 
+	from notebook.auth import passwd
+	passwd() # 입력하면 
+	enter password : (패스워드 입력)
+	Verify password : (패스워드 입력)
+	-> hasg값 복사해놓을 것.(sha1부터 aed까지)
+
+같은 공유기 사용 시 외부아이피로 접속 불가, 내부아이피로 접속가능(이건 맞는지 잘 모르겠다)
+

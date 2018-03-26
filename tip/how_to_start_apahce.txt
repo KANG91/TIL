@@ -1,0 +1,3 @@
+./ctlscript.sh start mysql
+./ctlscript.sh start apache
+./ctlscript.sh stop
