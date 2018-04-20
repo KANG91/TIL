@@ -36,7 +36,7 @@ def hello():
 # returns an HTML webpage
 @app.route("/user")
 def user():
-    return render_template('index.html')
+    return render_template('')
 
 # returns an HTML webpage
 @app.route("/user/<text>")
